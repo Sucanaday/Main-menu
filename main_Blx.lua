@@ -8052,7 +8052,7 @@ Button.Parent = ScreenGui
 Button.Size = UDim2.new(0, 50, 0, 50)
 Button.Position = UDim2.new(0.015, 0, 0.02, 20)
 Button.BackgroundTransparency = 1
-Button.Image = "rbxassetid://120225267909374"
+Button.Image = "rbxassetid://101619474894641"
 local UICorner = Instance.new("UICorner")
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = Button
@@ -8111,7 +8111,7 @@ local notificationCooldown = 10
 local currentTime = tick()
 if currentTime - lastNotificationTime >= notificationCooldown then
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Nam Scripts",
+        Title = "Aya Scripts",
         Text = "Đã Tải Xong",
         Duration = 1
     })
